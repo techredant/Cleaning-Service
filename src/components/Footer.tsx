@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl hero-gradient flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">CS</span>
               </div>
-              <span className="font-bold text-xl">CleanServe</span>
+              <span className="font-bold text-xl">Clean Service</span>
             </div>
             <p className="text-background/70 mb-4">
               Connecting you with trusted cleaning and home service professionals since 2020.
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="space-y-2 text-background/70">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254 123-4567</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-background/20 text-center text-background/50 text-sm">
-          <p>© 2024 CleanServe. All rights reserved. Built with ❤️ for cleaner spaces.</p>
+          <p>© 2024 Clean Service. All rights reserved. Built with ❤️ for cleaner spaces.</p>
         </div>
       </div>
     </footer>

@@ -115,7 +115,7 @@ const BookingForm = () => {
             value={formData.phone}
             onChange={handleChange}
             className="w-full h-12 px-4 bg-secondary rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="+1 555-0123"
+            placeholder="+254 7123-4567"
           />
         </div>
       </div>
@@ -147,7 +147,7 @@ const BookingForm = () => {
             onChange={handleChange}
             className="w-full h-12 px-4 bg-secondary rounded-xl text-foreground focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer"
           >
-            <option value="">Select a service</option>
+            <option value="">Click to select a service</option>
             {serviceTypes.map((service) => (
               <option key={service} value={service}>
                 {service}

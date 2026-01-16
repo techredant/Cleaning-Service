@@ -13,10 +13,13 @@ const Header = () => {
             <div className="w-10 h-10 rounded-xl hero-gradient flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">CS</span>
             </div>
-            <span className="font-bold text-xl text-foreground">CleanServe</span>
+            <span className="font-bold text-xl text-foreground">Clean Services</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
+            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+              Home
+            </a>
             <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
               Services
             </a>
